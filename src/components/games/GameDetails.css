@@ -1,0 +1,113 @@
+
+/*@font-face{
+
+font-family: 'Blenda Script';
+
+src: url('../public/Blenda Script/OTF/Blenda Script.otf') format('otf'),
+
+font-weight: normal;
+
+font-style: normal;
+
+}*/
+
+.outer-paper {
+  margin: auto;
+  width: 60%;
+}
+
+
+.statusList{
+  position: absolute;
+  top: 200px;
+  left: 500px;
+}
+ul.headerList {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 5px; /* Значение полей */
+   }
+
+.turn{
+  text-align: center;
+  position: absolute;
+  top: 300px;
+  left: 350px;
+  width: 200px;
+  border-style:ridge;
+  padding:12px;
+  background: #841515 linear-gradient(#842f2f, #d6bac2);
+  box-shadow: inset #454711 0 -1px 1px, inset 0 1px 1px #98ff98, #3caa3c 0 0 0 1px, rgba(0,0,0,.3) 0 2px 5px;
+
+
+}
+ul.headerList li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 8px; /* Отступ слева */
+    border: 1px solid #000; /* Рамка вокруг текста */
+    padding: 3px; /* Поля вокруг текста */
+   }
+
+.button2 {
+  position: relative;
+  display: inline-block;
+  width: 400px;
+  font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif ;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: rgb(245,245,245);
+  text-shadow: 0 -1px rgba(0,0,0,.1);
+  text-decoration: none;
+  user-select: none;
+  padding: .3em;
+  margin-bottom: 8px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background: #2d1a35 linear-gradient(#a762bc, #0c9c0d);
+  box-shadow: inset #454711 0 -1px 1px, inset 0 1px 1px #98ff98, #3caa3c 0 0 0 1px, rgba(0,0,0,.3) 0 2px 5px;
+  -webkit-animation: pulsate 1.2s linear infinite;
+  animation: pulsate 1.2s linear infinite;
+}
+.button2:hover {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+  cursor: pointer;
+}
+.button2:active {
+  top: 1px;
+  color: #fff;
+  text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;
+  box-shadow: 0 -1px 3px rgba(0,0,0,.3), 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
+}
+@-webkit-keyframes pulsate {
+  50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
+}
+@keyframes pulsate {
+  50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
+}
+.border{
+  border-style: solid;
+  height: 600px;
+  width: 900px;
+
+}
+/*######################################## list*/
+.list {
+  position: relative;
+  bottom:350px;
+  left: 0px;
+  width: 400px;
+
+
+}
+
+.frame{
+  position: absolute;
+  top: 130px;
+  right: 170px;
+}
+/*##################################### h1*/
+.imgList {
+  position: relative;
+  left: 0px;
+}
